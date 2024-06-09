@@ -30,4 +30,3 @@ zerops:
         httpGet:
           port: 3000
           path: /status
-
