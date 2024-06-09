@@ -12,6 +12,7 @@ zerops:
         - ./node_modules
         - ./package.json
     run:
+      os: ubuntu
       base: nodejs@20
       ports:
         - port: 3000
