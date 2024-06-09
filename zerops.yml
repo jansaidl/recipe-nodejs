@@ -22,6 +22,9 @@ zerops:
         DB_HOST: db
         DB_USER: db
         DB_PASS: ${db_password}
+      initCommands:
+      - whoami
+      - pwd
       start: npm run start:prod
       healthCheck:
         httpGet:
